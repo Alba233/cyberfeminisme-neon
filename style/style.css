@@ -20,7 +20,7 @@ h1 {
     transform-style: unset;
     letter-spacing: 0.11em;
     color: #ccebf1;
-    font-size: clamp(34px, 12vw, 86px);
+    font-size: clamp(34px, 8vw, 86px);
     margin-top: 200px;
     text-shadow: 0 0 0.11em #fff, 0 0 0.2em #d416e6, 0 0 0.3em #1256e9;
 }
