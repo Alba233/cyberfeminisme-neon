@@ -26,22 +26,21 @@ h1 {
 }
 h2 {
     margin-bottom: 20px;
-    font-size: clamp(34px, 12vw, 45px);
+    font-size: clamp(18px, 8vw, 45px);
     text-shadow: 0 0 0.02em #fff, 0 0 0.2em hsl(300, 97%, 39%), 0 0 0.3em  #aa1cf1;
     font-family: 'Exo', sans-serif;
     font-weight: 600;
     letter-spacing: 0.09em;
     color: hsl(300, 100%, 93%);
     align-items: center;
-    /* hyphens: auto; */
 }
-h3 {
-    font-size: 24px;
-}
-article{
-    background: hsl(197, 90%, 45%);
-    box-shadow: 10px 10px 0.2px #c572ee;
-    padding: 5px 18px;
+    h3 {
+        font-size: 24px;
+    }
+    article{
+        background: hsl(197, 90%, 45%);
+        box-shadow: 10px 10px 0.2px #c572ee;
+        padding: 5px 18px;
 }
 /*---------------- VIDEO BLUE FACE---------- */
 .départ{
@@ -64,11 +63,11 @@ video {
 }
 /*-------------------DEBUT MENU BURGER----------- */
 header{
+    background-color: black;
     position: fixed;
     display: block;
     width: 100%;
-    top: 27px;
-    right: 27px;
+
 }
 .burger{
     float: right;
@@ -115,7 +114,7 @@ nav {
     flex-direction: column;
     right: 0;
     background-color: #C471ED;
-    padding-top: 70px;
+    top: 59px;
     gap: 5%;
     font-size: 20px;
     text-align: center;
@@ -189,12 +188,15 @@ nav {
     margin: 0 auto;
     margin-top: 120px; 
 }
-.subtitlle{
+.subtitlle {
     color: white;
     font-style: italic;
 }
 .carousel-item img {
     height: 500px;
+}
+.carousel-item {
+    z-index: -10;
 }
 /* -MYCARROUSSEL-*/
 .CyborgContainer{
